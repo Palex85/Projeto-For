@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40vh;
+    padding-bottom: 100vh;
+    background-image: url("Assets/Lupa.png");
+    background-position: right center;
+    background-size: auto;
+    
+}
+
+
+
+.nome{
+    border-radius: 10px;
+    border: none;
+    opacity: 0.8;
+    width: 350px;
+    height: 50px;
+    
+}
+
+
+
+.b1{
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(7, 102, 110);
+    cursor: pointer;
+}
